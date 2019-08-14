@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Mobile_Shoppe_Responsive_Magento_Theme",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "A highly scalable and robust responsive magento theme for all business stores",
+    "authors": [
+    {
+        "name": "Creative Glance Technologies",
+        "email": "info@creativeglance.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
