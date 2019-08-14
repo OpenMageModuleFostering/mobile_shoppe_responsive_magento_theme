@@ -820,7 +820,7 @@ tr.summary-details-excluded { font-style:italic; }
     float: left;
     height: 18px;
     margin-top: 5px;
-    width: 215px;
+    width: 200px;
 }
 input.input-text, select, textarea {
     background: none repeat scroll 0 0 #FFFFFF;
@@ -905,7 +905,7 @@ input.input-text, select, textarea {
 
 
 /* Sidebar =============================================================================== */
-.block { margin:18px 0; border: 1px solid #DDDDDD;;}
+.block { margin:0 0 18px 0; border: 1px solid #DDDDDD;;}
 .block:first-child { margin-top: 0;  }
 .block .block-title {   background: none repeat scroll 0 0 #2F2F31;
     border-bottom: 1px solid #DDDDDD;
@@ -1136,7 +1136,14 @@ transition: all 500ms ease-in-out;}
 .faq_banner h1 {font-family: quara-web; font-size:32px;color:#fec00f;margin-left:30px;margin-top:0px;padding-top:15px;font-weight:normal;text-transform:uppercase;}
 .faq_banner p {width:330px;margin-left:30px;color:#cccccc;font-weight:bold;}
 .faq_right h3 {padding-left:25px;font-weight:normal;}
-
+.col-right {
+    float: right;
+}
+ 
+.col3-layout .col-main {float:right;}
+.col3-layout .col-wrapper {float:left;}
+.col3-layout .grid_3 {margin:0;}
+.col3-layout .grid_6 {width:490px;}
 /*left menu */
 
 .faq_accordian .arrowlistmenu{
@@ -2458,6 +2465,7 @@ display: inline-block;
 	.products-grid li.item {width:140px}
 	.cart .discount .discount-form, .cart .shipping .shipping-form {width:210px;}
 	.cart .totals { width:235px !important;}
+	.col3-layout .grid_6 {width: 320px;}
 	
 }
 
@@ -2478,7 +2486,22 @@ px      40    100    160    220    280    */
 	}
 	.row 								{ margin:0 auto; width:300px; overflow:hidden; }
 	.row .row 							{ margin:0; width:auto; display:inline-block; }
-		
+	
+	
+	.col3-layout .grid_1,
+	.col3-layout .grid_2,
+	.col3-layout .grid_3,
+	.col3-layout .grid_4,
+	.col3-layout .grid_5,
+	.col3-layout .grid_6,
+	.col3-layout .grid_7,
+	.col3-layout .grid_8,
+	.col3-layout .grid_9,
+	.col3-layout .grid_10,
+	.col3-layout .grid_11,
+	.col3-layout .grid_12							{ width:280px; margin:10px 0 0 0; overflow:hidden; float:left; display:inline; }	
+	
+	
 	.grid_1,
 	.grid_2,
 	.grid_3,
@@ -2642,6 +2665,19 @@ px      40    100    160    220    280    340                        */
 	}
 	.row 								{ margin:0 auto; width:456px; overflow:hidden; }
 	.row .row 							{ margin:0; width:auto; display:inline-block; }
+	
+	.col3-layout .grid_1,
+	.col3-layout .grid_2,
+	.col3-layout .grid_3,
+	.col3-layout .grid_4,
+	.col3-layout .grid_5,
+	.col3-layout .grid_6,
+	.col3-layout .grid_7,
+	.col3-layout .grid_8,
+	.col3-layout .grid_9,
+	.col3-layout .grid_10,
+	.col3-layout .grid_11,
+	.col3-layout .grid_12 { width:436px; margin:10px 0 0 0; overflow:hidden; float:left; display:inline; }							
 	
 	.grid_1,
 	.grid_2,
