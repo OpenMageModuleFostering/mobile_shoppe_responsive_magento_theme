@@ -445,8 +445,8 @@ cols    1     2      3      4      5      6      7      8      9      10    11  
 px      40    100    160    220    280    340    400    460    520    580   640  700   760   820   880   940        */
 
 .page {position: relative; margin: 0 auto; background: #F9F9F9; border-top: 4px solid #000; }
-.row 								{ margin:0 auto; width:960px; overflow:hidden;}
-	.row .row 							{ margin:0 -16px 0 -16px; width:auto; display:inline-block; }
+.row 								{ margin:0 auto; width:960px;}
+	.row .row 							{ margin:0 -16px 0 -16px; width:auto; }
 
 	.grid_1								{ width:48px; margin:0 16px 0 16px; overflow:hidden; float:left; display:inline; }
 	.grid_2 							{ width:128px; margin:0 16px 0 16px; overflow:hidden; float:left; display:inline; }
@@ -2155,6 +2155,7 @@ top: 25px; }
 
 /* Footer ================================================================================ */
 .footer-container {}
+.footer ul.cards{display:none;}
 .footer ul.links {
     clear: both;
     float: none;
@@ -2173,7 +2174,7 @@ top: 25px; }
 }
 .footer {}
 .footer a { color:#444; }
-.footer strong { color:#444; text-transform: uppercase; letter-spacing: 0.1em; }
+.footer strong { color:#444; text-transform: uppercase; letter-spacing: 0.1em;  }
 
 .footer-right { float: right; width: 520px; }
 .footer-left { float: left; margin-right: 20px; padding-right: 60px;  width: 340px;}
